@@ -36,8 +36,8 @@ export interface FilterProps {
     year: number;
     fuel: string;
     limit: number;
-    // model: number | string;
-    model: any;
+    model: number | string;
+   
 }
 
 export interface OptionProps {
